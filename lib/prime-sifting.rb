@@ -14,4 +14,18 @@ def prime_sifting(final_number)
   all_numbers
 end
 
+def nth_prime(total_primes)
+  current_primes = []
+  sift_limit = total_primes
+  while current_primes.length < total_primes do
+    current_primes = prime_sifting(sift_limit)
+    sift_limit*=2
+  end
+  if current_primes.length > total_primes
+    length_dif = current_primes.length - total_primes
+    current_primes.pop(length_dif)
+  end
+current_primes
+end
+
 prime_sifting(10)
