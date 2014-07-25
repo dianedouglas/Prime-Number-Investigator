@@ -3,7 +3,7 @@ require ('prime-sifting')
 
 describe('prime_sifting') do
   it('should list all the prime numbers up to the given input number') do
-    prime_sifting(3).should(eq([2]))
+    prime_sifting(26).should(eq([2,3,5,7,11,13,17,19,23]))
   end
 
   it('should list all the prime numbers up to the given input number') do
