@@ -19,4 +19,10 @@ There are two functions we were challenged to write: one will find all the prime
 3. Clone or download this project and in your command line, change directory into the top level of the project folder. 
 4. Run the tests and the program with the command `rspec`. As a demo it will print out all the primes up to the number 15, and then it will also print out the first 15 primes (which go up to the number 47).
 
+## Technologies Used
+
+* Ruby
+* RSpec
+* Command line
+
 Copyright © 2017
