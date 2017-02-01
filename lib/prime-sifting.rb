@@ -19,5 +19,11 @@ def nth_prime(total_primes)
   end
     length_dif = current_primes.length - total_primes
     current_primes.pop(length_dif)
-current_primes
+  current_primes
 end
+
+puts "This program will investigate prime numbers. Whee! "
+puts "First we'll tell it to find all the primes up to 15 by running prime_sifting(15)."
+puts prime_sifting(15)
+puts "Then we'll tell it to find the first 15 prime numbers by running nth_prime(15). Neat!"
+puts nth_prime(15)
