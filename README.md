@@ -1,4 +1,4 @@
-# _PRIME NUMBER INVESTIGATOR_
+# _[PRIME NUMBER INVESTIGATOR](https://rubygems.org/gems/prime_number_investigator)_
 
 #### _Print the first X primes, or all prime numbers up to X_
 
