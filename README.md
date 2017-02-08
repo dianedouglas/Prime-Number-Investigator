@@ -2,17 +2,13 @@
 
 #### _Print the first X primes, or all prime numbers up to X_
 
-#### By Diane Douglas and Christian Danielsen
-
-## 7/23/2014 (Updated 2/1/2017)
-
 ## Description:
 
-This is a small Ruby command line program to investigate prime numbers. It was written while we were in school at Epicodus. It was an exercise in practicing Test Driven Development by writing tests to lead us through the problem using RSpec. 
+This is a Ruby gem to investigate prime numbers. The `PrimeNumberInvestigator` class has one method `prime_sifting` which will find all the prime numbers up to a given number, and aother called `nth_prime` that will find a quantity of prime numbers (for example, the first 5 primes are 2, 3, 5, 7, 11.)
 
-Later, for practice I converted it to a gem and published it to rubygems.org.
+The first version was written by myself and Christian Danielsen while we were in school at Epicodus. It was an exercise in practicing Test Driven Development by writing tests to lead us through the problem using RSpec. 
 
-There are two functions we were challenged to write: one will find all the prime numbers up to a given number, and the other will find a quantity of prime numbers (for example, the first 5 primes are 2, 3, 5, 7, 11.)
+More recently, for practice I expanded on the tests, converted it to a class with methods instead of two separate functions, then I bundled it up as a gem and published it to rubygems.org.
 
 ## Setup This Repository:
 
